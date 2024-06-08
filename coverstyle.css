@@ -1,0 +1,491 @@
+*{
+   padding: 0px;
+   margin: 0px;
+}
+ body, html{
+	font-family: Roboto, sans-serif, arial;
+        background: hsla(1, 10%, 100%, 2.4);
+}
+.width-100{
+	width:100%;
+	float: left;
+}
+.container{
+	width:95%;
+	margin: 1% auto;
+}
+.top-header{
+	background:rgba(95, 200, 200,4.1);
+	padding: 5px 0px;
+	border-bottom: 1px solid #3131315e;
+	font-size: 50px;
+	font-size: 300%;
+	text-shadow: 2px 3px yellow;
+}
+.news-list{
+	background: rgba(95, 200, 200,4.1);
+	color: white;
+	padding: 6px;
+	font-size: 25px;
+	text-align:center;
+	text-shadow: 1px 2px black;
+	
+}
+.headquot{
+	font-size: 180px;
+	color: yellow;
+	width: 800%;
+	text-align:center;
+	float:center;
+}
+
+.margin-top-50{
+color:black;
+
+}
+
+.header-menu{
+	
+}
+.logo{
+	width: 100%;
+	float: left;
+	margin-right: 15px;
+	color: hsl(0 , 10%, 50%,);
+	text-align: center;
+	font-size: 300%;
+	text-shadow: 3px 3px green;
+}
+.main-menu{
+	text-decoration: none;
+	background-color: rgba(95, 200, 050,1.1);
+	float: center;
+}
+.main-menu a{
+	font-weight: 700;
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	display: in-line;
+	margin: 20px;
+	padding-left: 5px;
+}
+.main-menu li{
+	float: left;
+	padding: 12px 15px;
+	list-style: none;
+	background-color: gray;
+	border-style: outset;
+    border-width: 2px;
+    border-color: purple;
+	margin:5px;
+}
+.main-menu li:hover{
+	
+	background-color: silver;
+}
+.slider-width{
+	width: 100%;
+	height: 100px;
+}
+ .text{
+	color: white;
+	left: 50%;
+	top:50%;
+	font-size: 100px;
+	float: center;
+	position: align;
+	}
+}
+.marigin-top-50{
+	margin-top: 50px;
+}
+.width-33{
+	width: 33%;
+	float: left;
+}
+.latest-news{
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 20px;
+	height: 450px;
+	margin-bottom: 30px;
+	background-color: silver;
+	box-shadow: 5px 15px gray;
+}
+.heading-sect{
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #cfcfcf;
+	padding-bottom: 0px;
+	margin: 0px;
+	margin-bottom: 15px;
+	border: none solid #cfcfcf;
+	padding-top: 15px;
+	padding-left: 15px;
+	background: rgba(20, 150, 60,0.3);
+	color: white;
+	height: 50px;
+	font-size: 400px;
+}
+.head-title{
+margin: 0px;
+padding: 0px;
+font-size: 20px;
+font-weight: 600;
+padding-bottom: 5px:
+}
+.latest-news-ul{
+	padding: 0px;
+	list-style: none;
+	line-height: 40px;
+}
+.margin-top-50{
+	
+	background-color:rgba(20, 150, 60,0.3);
+}
+.latest-news-ul li{
+	padding: 0px;
+	list-style: none;
+	line-height: 40px;
+	color: black;
+}
+.event-list{
+	margin-left: 10px;
+	margin-right: 10px;
+	background: #fff;
+	padding: 20px;
+	height: 650px;
+	margin-bottom: 30px;
+	color: black;
+	background-color: silver;
+	box-shadow: 5px 15px rgba(0, 0, 0, 0.2);
+
+}
+.upcoming-event-list{
+	padding:0px;
+	list-style: none;
+}
+.upcoming-event-list li{
+	width: 100%;
+	float: left;
+	margin-bottom: 15px;
+}
+.event-date{
+	background: #03a9fa;
+	width: 55px;
+	float: left;
+	text-align: center;
+	font-size:18px;
+	color: #fff;
+	padding: 10px;
+	margin-right: 10px;
+}-
+.notice-board{
+	margin-left: 10px;
+	margin-right: 10px;
+	background: #fff;
+	padding: 20px;
+	height: 250px;
+	margin-bottom: 30px;
+}
+.notice-board-list{
+	padding:15px;
+	list-style: none;
+}
+.notice-board-list li{
+	width: 100%;
+	float: left;
+	margin-bottom: 28px;
+}
+.our-principal{
+	margin-left: 10px;
+	margin-right: 10px;
+	background: gray;
+	padding: 20px;
+	height: 350px;
+	margin-bottom: 30px;
+}
+.useful-info-ul{
+	list-style: none;
+}
+.useful-info-ul li{
+	margin-bottom: 15px;
+	border-bottom: 1px solid #d7d7d7;
+	padding-bottom: 15px;
+}
+.useful-info-ul a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.gov-sec-style{
+	margin-bottom: 30px;
+	border-bottom: 1px solid #d7d7d7;
+	padding-bottom: 30px;
+}
+.governor-name{
+	font-size: 16px;
+	color: black;
+	font-weight: bold;
+	padding-left: 10px;
+	margin-top: 20px;
+}
+.governor-designation{
+	font-size: 15px;
+	color: black;
+	padding-left: 10px;
+	margin-top: 6px;
+}
+.governor-img{
+	width:100%
+}
+.width-40{
+	width:40%;
+	float: left;
+}
+.width-60{
+	width:60%;
+	float: left;
+	
+}
+.about-us {
+	margin-left: 10px;
+	margin-right: 10px;
+	background: gray;
+	padding: 20px;
+	height: 590px;
+	margin-bottom: 30px;
+}
+.certificate {
+	margin-left: 10px;
+	margin-right: 10px;
+	background: gray;
+	padding: 20px;
+	height: 590px;
+	margin-bottom: 30px;
+}
+.gallery-head-style{
+	font-size: 28px;
+	color: #4b4848;
+	margin-bottom: 5px;
+	background: white;
+	padding: 2px 0px;
+	background-color: orange;
+}
+.width-25{
+	width: 25%;
+	float: left;
+}
+.gallery-img{
+	height: 250px;
+	width: auto;
+}
+.recruiter-head-style{
+	font-size: 28px;
+	color: black;
+	margin-bottom: 5px;
+	background: rgba(0, 100, 0, 0.2);;
+	padding: 2px 0px;
+}
+.recruiter-marquee{
+	height: 100px;
+}
+.recruiter-marquee img{
+	height: 80pxpx;
+	width: 140px;
+
+}
+.aman-news{
+	margin-left: 10px;
+	margin-right: 10px;
+	background: hsla(0, 10%, 10%, 6.4);
+	padding: 20px;
+	height: 200px;
+	margin-bottom: 30px;
+}
+.linking-sect{
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #cfcfcf;
+	padding-bottom: 0px;
+	margin: 0px;
+	margin-bottom: 15px;
+	border: 1px solid #cfcfcf;
+	padding-top: 15px;
+	padding-left: 5px;
+	background: hsla(0 , 0%, 50%, 0.1);
+	color: white;
+}
+.link-title{
+margin: 0px;
+padding: 0px;
+font-size: 16px;
+font-weight: 600;
+padding-bottom: 5px:
+}
+.aman-news-ul{
+	padding: 0px;
+	list-style: none;
+	line-height: 40px;
+	color: yellow;
+}
+	.aman-news-ul a{
+	line-height:1.8;
+	text-decoration: none;
+	color: yellow;
+}
+	.aman-news-ul li{
+	
+	line-height:1.8;
+	text-decoration: none;
+	color: yellow;
+}
+.aman-news-ul a:hover{
+	
+	background-color: purple;
+}
+
+
+.amann-news{
+	margin-left: 10px;
+	margin-right: 10px;
+	background: hsla(0, 10%, 10%, 6.4);
+	padding: 20px;
+	height: 200px;
+	margin-bottom: 30px;
+}
+.linkingg-sect{
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #cfcfcf;
+	padding-bottom: 0px;
+	margin: 0px;
+	margin-bottom: 15px;
+	border: 1px solid #cfcfcf;
+	padding-top: 15px;
+	padding-left: 5px;
+	background: hsla(0 , 0%, 50%, 0.1);
+	color: white;
+}
+.linkk-title{
+margin: 0px;
+padding: 0px;
+font-size: 16px;
+font-weight: 600;
+padding-bottom: 5px:
+}
+.amann-news-ul{
+	padding: 0px;
+	list-style: none;
+	line-height: 40px;
+	color: yellow;
+}
+	.amann-news-ul a{
+	line-height:1.8;
+	text-decoration: none;
+}
+	.amann-news-ul li{
+	
+	line-height:1.8;
+	text-decoration: none;
+	color: yellow;
+}
+.amann-news-ul a:hover{
+	
+	background-color: gray;
+       
+}
+
+.amannn-news{
+	margin-left: 10px;
+	margin-right: 10px;
+	background: hsla(0, 10%, 10%, 6.4);
+	padding: 20px;
+	height: 200px;
+	margin-bottom: 30px;
+}
+.linkinggg-sect{
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #cfcfcf;
+	padding-bottom: 0px;
+	margin: 0px;
+	margin-bottom: 15px;
+	border: 1px solid #cfcfcf;
+	padding-top: 15px;
+	padding-left: 5px;
+	background: hsla(0 , 0%, 50%, 0.1);
+	color: white;
+}
+.linkkk-title{
+margin: 0px;
+padding: 0px;
+font-size: 16px;
+font-weight: 600;
+padding-bottom: 5px:
+}
+.amannn-news-ul{
+	padding: 0px;
+	list-style: none;
+	line-height: 40px;
+	color: yellow;
+}
+	.amannn-news-ul a{
+	line-height:1.8;
+	text-decoration: none;
+	color: brown;
+        font-size: 16px;
+}
+	.amannn-news-ul li{
+	
+	line-height:1.5;
+	text-decoration: none;
+	color: white;
+        font-size: 10px;
+}
+.amannn-news-ul a:hover{
+	
+	background-color: yellow;
+}
+
+
+
+.amannnn-news{
+	margin-left: 0px;
+	margin-right: 0x;
+	background: rgba(0, 25, 78,8.1);;
+	padding: 20px;
+	height: 70px;
+	margin-bottom: 0px;
+}
+.linkingggg-sect{
+	width: 100%;
+	float: center;
+	border-bottom: 1px solid #cfcfcf;
+	padding-bottom: 0px;
+	margin: 0px;
+	margin-bottom: 0px;
+	border: 1px solid #cfcfcf;
+	padding-top: 2px;
+	padding-left: 5px;
+	background: hsla(0 , 0%, 50%, 0.1);
+	color: white;
+}
+.linkkkk-title{
+margin: 0px;
+padding: 20px;
+font-size: 12px;
+font-weight: 600;
+padding-bottom: 10px;
+list-style: none;
+text-align: center;
+color: rgba(22, 208, 0 ,9.1);
+}
+.aman-news-ul{
+	padding: 0px;
+	list-style: none;
+	line-height: 40px;
+	color: yellow;
+}
