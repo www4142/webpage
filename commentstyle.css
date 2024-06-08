@@ -1,0 +1,14 @@
+*{
+
+}
+html{
+	background-color:rgba(250 , 100, 10,0.2);
+	font-family: Lucida sans-serif;
+	font-weight:bold;
+	color:rgb(10 , 100, 250);
+	padding: 5%;
+	margin: 5%;
+	font-size: 1.2em;
+	
+	
+}
