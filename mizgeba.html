@@ -1,0 +1,100 @@
+	<!DOCTYPE html>
+
+<html>
+   <head>
+   <link rel = "stylesheet" href = "mizgeba.css">
+   </head>
+   <body>
+	  <div class = "container">
+	  <form method = "post" action = "" name = "contact-form">
+	  <h4> Ozone school registration Form  </h4>
+	  <fieldset>
+	  <legend><h6>Name</h6></legend>
+	  <input type = "text" name ="Name" placeholder = "Write your name">
+	  </fieldset><br>
+	  <fieldset>
+	  <legend><h6>Father Name</h6></legend>
+	  <input type = "text" name ="Father Name" placeholder = "Write your father's name">
+	  </fieldset><br>
+	  <fieldset>
+	  <legend><h6>Grand Father Name</h6></legend>
+	  <input type = "text" name ="G.father Name" placeholder = "Write your grand father's name">
+	  </fieldset><br>
+	   <div class ="sex">
+	   <fieldset>
+	  <legend><h6>Sex</h6></legend>
+	<input type = "radio" name = "Sex" value ="Male" checked>Male 
+	 &nbsp&nbsp&nbsp&nbsp
+	 &nbsp&nbsp&nbsp&nbsp
+	 &nbsp&nbsp&nbsp&nbsp
+	 &nbsp&nbsp&nbsp&nbsp
+	<input type = "radio" name = "Sex" value ="Female">Female
+	</fieldset><br>
+	</div>
+	<div class ="age">
+	 <fieldset>
+	  <legend><h6>Age</h6></legend>
+	<input type = "number" name = "Age"
+   min = "0"
+   max = "99"
+   step = "1"
+   value = "12" />
+   </fieldset><br>
+	   </div>
+	   	<div class ="date">
+	 <fieldset>
+	  <legend><h6>Birth Date</h6></legend>
+	   <input type = "date"  name = "Birth Date"/>
+	      </fieldset><br>
+	   </div>
+	   <fieldset>
+	  <legend><h6>Phone Number 1</h6></legend>
+	  <input type = "text" name ="Phone Number 1" placeholder = "Write your phone number 1">
+	  </fieldset><br>
+	  <fieldset>
+	  <legend><h6>Phone Number 2</h6></legend>
+	  <input type = "text" name ="Phone Number 2" placeholder = "Write your phone number 2">
+	  <div>
+
+	  <script>
+	let url = "https://script.google.com/macros/s/AKfycbwbRWZ4urTQUMLNL1ePA-SPhhWLR_ZoJLIrn_Wr2J-TH1rsPVNhvfl8lWZkbky4iBAFRg/exec";
+	let file = document.querySelector("input");
+	let img = document.querySelector("img");
+	file.addEventListener('change',()=>{
+	let fr = new FileReader();
+	fr.addEventListener('loadend',()=>{
+	let res = fr.result;
+	img.src=res;
+	let spt = res.split("base64,")[1];
+	//console.log(spt);
+	let   obj = {
+	base64:spt;
+	type:file.files[0].type,
+	name: file.files[0].name
+	}
+	fetch(url.{
+	method: "POST",
+	body:JSON.stringify(obj)
+	})
+	.then(r=>r.text())
+	.then(data=>console.log(data))
+	
+	})
+	fr.readAsDataUrl(file.files[0])
+	})
+	</script>
+	</div>
+	  </fieldset><br><br>
+	  <div class ="btn">
+	 <input type = "submit" value = "send">
+	 &nbsp&nbsp&nbsp&nbsp
+	 &nbsp&nbsp&nbsp&nbsp
+	 &nbsp&nbsp&nbsp&nbsp
+	 &nbsp&nbsp&nbsp&nbsp
+	 <input  type = "reset" value = "clear" >
+	 </form>
+	 </div>
+	 </div>
+	 <script src = "mizgeba.js"></script>
+	 </body>
+	 <html>
