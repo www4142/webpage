@@ -70,9 +70,10 @@ color:black;
 	display: in-line;
 	margin: 20px;
 	padding-left: 5px;
+	float: center;
 }
 .main-menu li{
-	float: left;
+	float: center;
 	padding: 12px 15px;
 	list-style: none;
 	background-color: gray;
